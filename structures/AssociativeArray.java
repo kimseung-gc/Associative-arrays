@@ -217,7 +217,7 @@ public class AssociativeArray<K, V> {
   private void expand() {
     // redeclare pairs as a copied array of current pairs, but extended with DEFAULT_CAPACITY
     // more elements.
-    this.pairs = java.util.Arrays.copyOf(this.pairs, this.pairs.length + DEFAULT_CAPACITY);
+    this.pairs = java.util.Arrays.copyOf(this.pairs, 2*DEFAULT_CAPACITY);
   } // expand()
 
   /**
