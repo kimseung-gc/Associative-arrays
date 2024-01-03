@@ -1,4 +1,4 @@
-# MP04: Associative Array
+# Associative Array
 
 ## Groups
 ```
